@@ -1,0 +1,47 @@
+
+<div class="row" id="header">
+
+<form class="" action="/greetings" method="post">
+<div class="row">
+  <h1>Greetings</h1>
+   <div class="">
+     <h3>First name : <input name="people" type="text" class="greeting">
+
+     </div>
+     <div class="languages">
+      <input type="radio" name="langNames" class="languageRadio" value="English">
+     <span class="label-body">English</span>
+     <input type="radio" name="langNames" class="languageRadio" value="IsiXhosa">
+     <span class="label-body">IsiXhosa</span>
+     <input type="radio" name="langNames" class="languageRadio" value="Afrikaans">
+     <span class="label-body">Afrikaans</span>
+
+    </div><br>
+   <input type="submit" name="name" value="Greet!" class="greetBtn">
+
+
+   <a href="/reset"><input type="button" name="Reset" value="Reset!" class="resetBtn" ></a>
+   <br>
+   <div class="entryOne">
+       <span class=""> {{messages.info}}</span>
+   </div>
+ </form>
+
+
+ <span class="greetCount">{{counting}}</span></h3>
+ <div class="displayField">
+   <span class="displayName">{{hello}} </span>
+    </div>
+    <br><br>
+ <a href="/greeted">Names_greeted</a>
+
+
+
+ </div>
+ </header>
+
+
+</div>
+
+
+</div>

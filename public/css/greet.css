@@ -1,0 +1,54 @@
+#header{
+	text-align: center;
+	background-color: pink;
+	height: 450px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.entryOne{
+	color: red;
+}
+.greetBtn{
+ width: 80px;
+ height:45px;
+}
+.greeted{
+	width: 80px;
+  height:45px;
+  background-color: red;
+}
+ .resetBtn{
+  width: 80px;
+  height:45px;
+
+ }
+
+ #greetings{
+     font-size: 19px;
+
+ }
+
+ .inputName{
+ 	height: 25px;
+ }
+ .row{
+	 background-color: pink;
+	 text-align: center;
+ }
+ table {
+     font-family: arial, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+ }
+
+ td, th {
+     border: 1px solid #dddddd;
+     text-align: left;
+     padding: 8px;
+ }
