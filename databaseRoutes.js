@@ -15,9 +15,10 @@ module.exports = function(pool) {
 
   async function postRoute(req, res) {
     try {
-      const people = req.body.people;
+      const person = req.body.people;
       const languages = req.body.langNames;
-
+      let char = /^[A-Za-z]+$/;
+      const people = person.charAt(0).toUpperCase()+ person.slice(1).toLowerCase();
       if (people === '' && languages === undefined) {
         req.flash('info', 'Please select language and enter name')
       } else if (people === '') {
@@ -71,12 +72,22 @@ module.exports = function(pool) {
       res.send(err.stack);
     }
   }
+  async function greetcounts(req,res){
+    try{
+      let username = req.params.users_greeted;
+      let result = await serviceData.selectUsers(username);
+      res.render('names',{times:result});
+      }catch(err){
+      res.send(rerr.stack)
+    }
+  }
 
   return {
     takeNamesHome,
     postRoute,
     resRoute,
     getRoute,
-    greetedRouted
+    greetedRouted,
+    greetcounts
   }
 }

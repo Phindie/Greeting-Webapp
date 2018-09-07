@@ -1,28 +1,31 @@
 <div class="row">
   <h2>Greetings</h2>
+
+
   <table>
     <thead>
       <tr>
 
         <th>Names</th>
          <th>Languages</th>
-          <th>Count</th>
+
       </tr>
     </thead>
     <tbody>
       {{#each keep}}
         <tr>
 
-          <td>{{users_greeted}}</td>
+          <td><a href="/counter/{{users_greeted}}">{{users_greeted}}</td>
           <td>{{ user_language}}</td>
-          <td>{{counter}}</td>
+
 
         </tr>
       {{/each}}
 
     </tbody>
   </table>
-  <a href="/">Homepage</a>
+  <a href="/clear"><input type="button" name="Reset" value="Reset!" class="resetBtn" ></a>
+  <a href="/"><input type="button" name="Homepage" value="Homepage" class="Homepage"></a>
 
 
 </div>

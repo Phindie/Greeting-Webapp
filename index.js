@@ -38,6 +38,7 @@ app.engine('handlebars',
     saveUninitialized: true
   }));
 
+
   app.use(flash());
 
 app.set('view engine', 'handlebars');
@@ -53,6 +54,14 @@ app.post('/greetings', routes.postRoute);
 app.get('/greetings/:name/:language', routes.getRoute);
 app.get('/reset',routes.resRoute);
 app.get('/greeted', routes.greetedRouted);
+app.get('/counter/:users_greeted',routes.greetcounts);
+app.get('/clear',async function (req,res){
+    await pool.query(' Delete from greet');
+    res.render('greeted');
+});
+
+
+
 
 const PORT = process.env.PORT || 3000;
 

@@ -26,7 +26,17 @@
  .resetBtn{
   width: 80px;
   height:45px;
+ }
+ .Homepage{
+	 width: 100px;
+	 height:45px;
+	 margin-top: 80px;
+ }
 
+ .action{
+	 text-align: center;
+ 	background-color: pink;
+ 	height: 350px;
  }
 
  #greetings{
