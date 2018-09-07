@@ -246,4 +246,18 @@ p {
   .container {
     max-width: 100%;
   }
+  .greeting{
+  	height:50px;
+  	width: 250px;
+  	font-size: 50px;
+  }
+  .resetBtn{
+   width: 120px;
+   height:60px;
+ 	margin-left: 500px;
+  }
+  .greetBtn{
+   width: 120px;
+   height:60px;
+  }
 }

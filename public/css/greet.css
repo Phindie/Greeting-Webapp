@@ -2,8 +2,9 @@ body {
 	background-color: pink;
 }
 .greeting{
-	height:30px;
-	width: 180px;
+	height:50px;
+	width: 200px;
+	font-size: 50px;
 }
 .languageRadio{
 	 height: 30px;
