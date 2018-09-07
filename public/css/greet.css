@@ -1,10 +1,25 @@
+body {
+	background-color: pink;
+}
+.greeting{
+	height:30px;
+	width: 180px;
+}
+.languageRadio{
+	 height: 30px;
+	 width: 50px;
+}
+.label-body{
+	font-size: 60px;
+}
+
 #header{
 	text-align: center;
-	background-color: pink;
-	height: 450px;
+	height: 100%;
+	width: 100%;
 }
 .fa {
-  padding: 20px;
+  padding: 50px;
   font-size: 30px;
   width: 50px;
   text-align: center;
@@ -15,21 +30,23 @@
 	color: red;
 }
 .greetBtn{
- width: 80px;
- height:45px;
+ width: 120px;
+ height:60px;
 }
 .greeted{
-	width: 80px;
-  height:45px;
+	width: 120px;
+  height:60px;
   background-color: red;
+
 }
  .resetBtn{
-  width: 80px;
-  height:45px;
+  width: 120px;
+  height:60px;
+	margin-left: 500px;
  }
  .Homepage{
-	 width: 100px;
-	 height:45px;
+	 width: 120px;
+	 height:60px;
 	 margin-top: 80px;
  }
 

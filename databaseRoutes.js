@@ -26,7 +26,7 @@ module.exports = function(pool) {
       } else if (languages === undefined) {
         req.flash('info', 'Please select a language')
       } else {
-        req.flash('info', languages + " ," + people);
+        req.flash('info', languages + ", " + people);
         await serviceData.addUsersOrIncrement(people, languages);
       }
       res.redirect('/');
