@@ -1,20 +1,25 @@
 
-<div class="row" id="header">
+<div class="" >
 
 <form class="" action="/greetings" method="post">
-<div class="row">
-  <h1>Greetings</h1>
-   <div class="">
-     <h1>First name : <input name="people" type="text" class="greeting">
+  <div class="row">
+    <h1 id="header">Greetings</h1>
+    <div class="">
+      <h1>First name : <input name="people" type="text" class="greeting">
 
      </div>
      <div class="languages">
-      <input type="radio" name="langNames" class="languageRadio" value="Hello">
-     <span class="label-body">English</span>
-     <input type="radio" name="langNames" class="languageRadio" value="Molo">
-     <span class="label-body">IsiXhosa</span>
-     <input type="radio" name="langNames" class="languageRadio" value="Goeie Dag">
-     <span class="label-body">Afrikaans</span>
+<form>
+  <label class="radio-inline">
+    <input type="radio" name="langNames" class="languageRadio" value="Hello">English
+  </label>
+    <label class="radio-inline">
+      <input type="radio" name="langNames" class="languageRadio" value="Molo">IsiXhosa
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="langNames" class="languageRadio" value="Goeie Dag">Afrikaans
+    </label>
+  </form>
 
     </div><br>
    <input type="submit" name="name" value="Greet!" class="greetBtn">
@@ -29,16 +34,16 @@
 
 
  <span class="greetCount">{{count}}</span></h1>
- <div class="displayField">
-   <span class="displayName">{{hello}} </span>
+      <div class="displayField">
+        <span class="displayName">{{hello}} </span>
+      </div>
+      <br><br>
+      <a href="/greeted">Names_greeted</a>
+
+
+
     </div>
-    <br><br>
- <a href="/greeted">Names_greeted</a>
+    </header>
 
 
-
- </div>
- </header>
-
-
-</div>
+  </div>

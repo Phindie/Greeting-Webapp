@@ -11,7 +11,9 @@ body {
 	 width: 50px;
 }
 .label-body{
-	font-size: 60px;
+	font-size: 30px;
+
+
 }
 
 #header{
@@ -64,6 +66,7 @@ body {
 
  .inputName{
  	height: 25px;
+	padding-left: 40px;
  }
  .row{
 	 background-color: pink;
