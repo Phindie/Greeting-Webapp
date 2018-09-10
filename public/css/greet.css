@@ -35,21 +35,22 @@
 .entryOne{
 	color: red;
 }
-.greetBtn{
- width: 120px;
- height:60px;
+
+.bigBtn {
+	width: 120px;
+	height:60px;
+	border: 2px solid;
+	border-radius: 5px;
+	background-color: grey;
 }
+
+
 .greeted{
 	width: 120px;
   height:60px;
   background-color: red;
-
 }
- .resetBtn{
-  width: 120px;
-  height:60px;
-	/* margin-left: 500px; */
- }
+
  .Homepage{
 	 width: 120px;
 	 height:60px;
