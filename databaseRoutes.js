@@ -20,7 +20,7 @@ module.exports = function(pool) {
       let char = /^[A-Za-z]+$/;
       const people = person.charAt(0).toUpperCase()+ person.slice(1).toLowerCase();
       if (people === '' && languages === undefined) {
-        req.flash('info', 'Please select language and enter name')
+        req.flash('info', 'Please enter name and select language ')
       } else if (people === '') {
         req.flash('info', 'Please enter name')
       } else if (languages === undefined) {

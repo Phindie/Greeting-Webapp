@@ -1,10 +1,14 @@
-body {
-	background-color: pink;
+.container {
+	 background-color: pink;
+	  border: 5px solid;
+    padding: 10px;
+    box-shadow: 10px 20px grey;
 }
 .greeting{
 	height:50px;
 	width: 200px;
 	font-size: 50px;
+
 }
 .languageRadio{
 	 height: 30px;
@@ -12,14 +16,13 @@ body {
 }
 .label-body{
 	font-size: 30px;
-
-
 }
 
 #header{
 	text-align: center;
 	height: 100%;
 	width: 100%;
+	 text-shadow: 2px 2px 5px red;
 }
 .fa {
   padding: 50px;
@@ -45,7 +48,7 @@ body {
  .resetBtn{
   width: 120px;
   height:60px;
-	margin-left: 500px;
+	/* margin-left: 500px; */
  }
  .Homepage{
 	 width: 120px;
@@ -61,8 +64,11 @@ body {
 
  #greetings{
      font-size: 19px;
+}
 
- }
+.greetCount{
+	font-size: 50px;
+}
 
  .inputName{
  	height: 25px;
